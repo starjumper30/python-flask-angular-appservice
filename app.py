@@ -18,14 +18,14 @@ def favicon():
 
 
 @app.route('/api/hello', methods=['GET'])
-def hello():
+def hello_get():
     name = request.args.get('name')
     return {'name': name}
 
 
 @app.route('/api/hello', methods=['POST'])
-def hello():
-    name = request.form.get('name')
+def hello_post():
+    name = request.json.get('name')
     return {'name': name}
 
 

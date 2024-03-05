@@ -1,0 +1,5 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <label for="name">Could you please tell me your name?</label>
+  <input type="text" id="name" name="name" formControlName="name" style="max-width: 256px;">
+  <button type="submit">Say Hello</button>
+</form>

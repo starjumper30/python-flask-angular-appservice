@@ -1,3 +1,8 @@
+I have taken the sample Flask app from Microsoft and modified it to serve an Angular app as the front end. 
+See the quickstart link below for instructions on running flask locally and deploying to Azure. 
+To build the Angular app, simply run 'ng build' from inside the app directory.
+
+
 # Deploy a Python (Flask) web app to Azure App Service - Sample Application
 
 This is the sample Flask application for the Azure Quickstart [Deploy a Python (Django or Flask) web app to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python). For instructions on how to create the Azure resources and deploy the application to Azure, refer to the Quickstart article.
